@@ -1,29 +1,63 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
-    i18n: company_a
+    detail: Alarm.com
   desc:
-    detail: I worked at Company A ...
-    i18n: company_a_desc
+    detail: I worked on Android in Alarm.com's mobile division, writing Java and xml code. Specifically, I worked with the live video portion of their application.
+            There were 3 projects I worked on this summer, 2 of which were part of a large-scale change in the app's structure in the near future.
+            First, I worked on the video card, replacing an outdated radio button selector with a ViewPager to allow users to swipe between live video feeds.
+            The purpose of this project was to modernize the UI as well as improve user operation time.
+            Since the average user of the app has 2 cameras, the previous design required 3 taps, while this new design only requires 1 swipe, cutting user operation time by 66%
+            I also worked on modernizing the old video control buttons. The old buttons were static, below the video feed, and shared between the video feeds.
+            The new button style I created is similar to most modern UIs, half transparent buttons overlaying the video and fade out with a tap or 3 second timeout.
+            
+            The second project I worked on involved Picture-in-Picture, a feature to be released in Android O.
+            This involved working with limited to no documentation on
+            
+            The last project I worked on was to replace the feature screen, previously a single camera feed view, with a RecyclerView to dynamically load as many video feeds as will fit on the screen.
+            This is part of a larger-scale project to add multi-view feeds 
+    
   date:
-    detail: Apr. 2016
-    i18n: company_a_date
+    detail: Jun - Aug 2017
   job:
-    detail: CTO
-    i18n: company_a_job
+    detail: Software Engineer Intern
   icon: fa-plus-square
 
 - name:
-    detail: Company B
-    i18n: company_b
+    detail: TRX Systems
   desc:
-    detail: I worked at Company B ...
-    i18n: company_b_desc
+    detail: Improved the particle filter in an offline user-tracking app to increase accuracy to within 1 meter.
+            Redesigned the app to turn it into a consumer ready product currently known as Neon Squad Tracker
+            Created a Google Maps based prototype of the base user-tracking app to demonstrate potential future development paths
+            Began development on a new application in Cesium JS intended to replace the current PC application, which is used to create 3D building floor plans and track user locations in 3D.
+            It would allow users to use the application on any platform such as phones and tablets versus the current PC only application.
+            Maintenence is also significantly easier compared to having separate applications for each platform since only 1 bug fix is necessary in contrast to 3, one for each platform. 
   date:
-    detail: Jun. 2015
-    i18n: company_b_date
+    detail: Sept 2016 - May 2017
   job:
-    detail: Full Stack Developer
-    i18n: company_b_job
+    detail: Software Engineer Part-time
+  icon: fa-plus-square
+
+- name:
+    detail: TRX Systems
+  desc:
+    detail: Wrote a particle filter to locate users connected in an offline environment. Users were located through ultra-wide band bluetooth and inertia sensors to determine inertial x y movement and distance to each other
+            Built an Android app using the particle filter to track users and display them on a radar with relative ranges to each other
+            Performed extensive tests on the company's tracking based products to expose user-facing bugs and usability enhancements
+            Collected extensive indoor location data using the company's mapping application at the University of Maryland to create a map as proof-of-concept for a publically maintained data set for future large-scale testing
+  date:
+    detail: May - Aug 2016
+  job:
+    detail: Software Engineer Intern and Tester
+  icon: fa-plus-square
+
+- name:
+    detail: National Institute of Standards and Technology
+  desc:
+    detail: I used FORTRAN to implement perturbation theory to aid in the accuracy of complex atomic calculations. 
+            I verified the effectiveness of the program using pseudopotential data of H, O, and MgO 
+  date:
+    detail: Jun - Aug 2014
+  job:
+    detail: Physical Measurement Intern
   icon: fa-plus-square
